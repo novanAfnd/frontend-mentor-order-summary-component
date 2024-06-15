@@ -6,10 +6,69 @@
 
 /* Center the card in the browser */
 body {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100vh; /* take up the entire vertical height of the user’s screen */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Main */
 main {
+  flex: 1; /* take up the available space, and stay in the middle. So that the attributes are placed closer to the bottom edge */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card Block */
+.card {
+}
+
+.card__image {
+}
+
+.card__heading {
+}
+
+.card__text {
+}
+
+/* Card Plan */
+.card__plan {
+}
+
+.card__plan-description {
+}
+
+.card__plan-description__image {
+}
+
+.card__plan-description__upper-text {
+}
+
+.card__plan-description__lower-text {
+}
+
+.card__plan-change {
+}
+
+.card__plan-change__text {
+}
+
+/* Button */
+.card__button {
+}
+
+.card__button--proceed {
+}
+
+.card__button--cancel {
 }
 
 /* Footer */
@@ -23,4 +82,7 @@ main {
 
 /* Desktop */
 @media (min-width: 768px) {
+  body {
+    background-image: url(images/pattern-background-desktop.svg);
+  }
 }
