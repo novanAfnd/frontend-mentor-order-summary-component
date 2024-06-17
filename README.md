@@ -95,5 +95,5 @@ I will continue to learn about code naming standards. whether it's an ID or clas
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Novan Afandi](https://kosmikkoding.my.id/)
+- Frontend Mentor - [@novanAfnd](https://www.frontendmentor.io/profile/novanAfnd)
